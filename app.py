@@ -27,4 +27,6 @@ prizes = db["prizes"]
 laureates = db["laureates"]
 
 len_prizes = prizes.count_documents({})
+print(f"Total de prêmios na coleção 'prizes': {len_prizes} ")
 len_laureates = laureates.count_documents({})
+print(f"Total de laureados na coleção 'laureates': {len_laureates}")
